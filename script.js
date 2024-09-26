@@ -40,7 +40,7 @@ function generatePost() {
     
     // Create an anchor tag with an image inside
     const anchorTag = document.createElement('a');
-    anchorTag.href = 'https://www.threads.net/intent/post?url=https%3A%2F%2Fmcquaidn.github.io%2FinfiniteMonkeys&text=' + post
+    anchorTag.href = 'https://www.threads.net/intent/post?url=https%3A%2F%2Fmcquaidn.github.io%2FinfiniteMonkeys&text=' + post + " #infiniteMonkeys96"
     anchorTag.target = '_blank'; // Open in a new tab
     anchorTag.rel = 'noopener noreferrer'; // Security best practice for external links
     anchorTag.className = 'ms-2'; // Add margin-left for spacing
